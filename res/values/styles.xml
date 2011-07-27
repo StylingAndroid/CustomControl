@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="HighlightedTextViewStyle" parent="@android:style/Widget.TextView">
+		<item name="highlightStyle">bold|italic</item>
+		<item name="pattern">(wor[dk]s)</item>
+	</style>
+</resources>

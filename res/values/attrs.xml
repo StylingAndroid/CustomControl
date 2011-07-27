@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="HighlightedTextView">
+		<attr name="android:text" />
+		<attr name="pattern" format="string" />
+		<attr name="highlightStyle">
+			<flag name="normal" value="0" />
+			<flag name="bold" value="1" />
+			<flag name="italic" value="2" />
+		</attr>
+	</declare-styleable>
+
+	<declare-styleable name="MyTheme">
+		<attr name="highlightedTextViewStyle" format="reference" /> 
+	</declare-styleable>
+</resources>
